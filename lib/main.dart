@@ -25,6 +25,10 @@ class _QuoteListState extends State<QuoteList> {
         centerTitle: true,
         backgroundColor: Colors.redAccent,
       ),
+      body: Column(
+        children: quotes.map((quote) => Text(quote)
+        ).toList(),
+      ),
     );
   }
 }
