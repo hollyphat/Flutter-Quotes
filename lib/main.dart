@@ -25,7 +25,7 @@ class _QuoteListState extends State<QuoteList> {
   ];
 
   Widget quoteTemplate(quote){
-    return new QuoteCard(quote: quote);
+    return QuoteCard(quote: quote);
   }
 
   @override
