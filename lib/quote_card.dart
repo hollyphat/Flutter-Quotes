@@ -28,7 +28,13 @@ class QuoteCard extends StatelessWidget {
                   fontSize: 14.0,
                   color: Colors.grey[800]
               ),
-            )
+            ),
+            SizedBox(height: 8.0,),
+            FlatButton.icon(
+              onPressed: () {},
+              icon: Icon(Icons.delete),
+              label: Text("Delete")
+            ),
           ],
         ),
       ),
