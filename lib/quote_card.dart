@@ -33,7 +33,7 @@ class QuoteCard extends StatelessWidget {
             FlatButton.icon(
               onPressed: () {},
               icon: Icon(Icons.delete),
-              label: Text("Delete")
+              label: Text("delete quote")
             ),
           ],
         ),
